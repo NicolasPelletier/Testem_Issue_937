@@ -1,0 +1,25 @@
+{
+  "name": "testem_issue_937",
+  "version": "1.0.0",
+  "description": "This is a description",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:dev": "testem"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasPelletier/Testem_Issue_937.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NicolasPelletier/Testem_Issue_937/issues"
+  },
+  "homepage": "https://github.com/NicolasPelletier/Testem_Issue_937#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.0",
+    "testem": "^1.10.2"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "src_files": [
+    "src/**/*.js",
+    "test/setup.js",
+    "test/**/*.spec.js"
+  ],
+
+  "launchers": {
+    "node": {
+      "command": "mocha -R tap",
+      "protocol": "tap"
+    }
+  },
+
+  "launch_in_dev": [ "node" ],
+  "launch_in_ci": [ "node" ]
+}
